@@ -1,3 +1,9 @@
+<!--
+	Name: Francisco Reina
+  File: index.html
+	Date: 07 June 2024
+	Description: Display a tabble showing planets information.
+	-->
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -9,10 +15,12 @@
   <body>
     <h1>Table template</h1>
     <table>
+      <!-- Table caption -->
       <caption>Planets Information</caption>
   <thead>
+    <!-- Header row for column titles -->
     <tr>
-      <th colspan="2"></th>
+      <td colspan="2"></td>
       <th>Planets</th>
       <th>Mass (10<sup>24</sup>kg)</th>
       <th>Diameter (km)</th>
@@ -26,6 +34,7 @@
     </tr>
 
     <tr>
+      <!-- Row group for terrestrial planets -->
       <th rowspan="6" colspan="2">Terrestrial planets</th>
     </tr>
 
@@ -82,6 +91,7 @@
     <tr>
 
     <tr>
+      <!-- Row group for Jovian planets -->
       <th rowspan="4" scope="rowgroup">Jovian planets</th>
       <th rowspan="2" scope="row">Gas giants</th>
       <th>Jupiter</th>
@@ -110,6 +120,7 @@
     </tr>
 
     <tr>
+      <!-- Rows for each ice giants-->
       <th rowspan="2" scope="row">Ice giants</th>
       <th>Uranus</th>
       <td>86.8</td>
@@ -137,6 +148,7 @@
     </tr>
 
     <tr>
+      <!-- Row for dwarf planets -->
       <th colspan="2">Dwarf planets</th>
       <th>Pluto</th>
       <td>0.0146</td>
