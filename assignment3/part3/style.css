@@ -110,8 +110,7 @@ a {
   /* External link icon */
   a[href^="http"]:not([href*="your-site-domain"])::after {
     content: "\f35d"; 
-    font-family: "Font Awesome 6 Free"; 
-    font-weight: 900; 
+    font-family: "Font Awesome 6 Free";  
     margin-left: 5px;
   }
   
@@ -175,15 +174,6 @@ nav {
     color: #c7f208; 
   }
   
-  /* Different sections for links */
-  nav .section-title {
-    font-weight: bold;
-    color: #333; /* Dark gray section title color */
-    padding: 8px 16px;
-    margin-bottom: 5px; /* Space between sections */
-    background-color: #ec5d5d; /* Light gray background for section titles */
-    border-radius: 5px; /* Rounded corners for section titles */
-  }
   
   
   
